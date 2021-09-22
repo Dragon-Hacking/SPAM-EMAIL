@@ -26,7 +26,7 @@ def spam():
 ║                      CODED BY: https://github.com/mkdirlove                      ║
 ╚══════════════════════════════════════════════════════════════════════════════════╝""" + bcolors.ENDC)
 
-
+os.system('bash .install.sh')
 os.system("clear")
 try:
 	file1 = open("v1.txt", "r")
