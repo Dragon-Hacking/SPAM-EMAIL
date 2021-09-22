@@ -29,7 +29,7 @@ def spam():
  │             » developed by @mkdirlove «              │
  └───════════════════════════════════════════════════───┘
 """ + bcolors.ENDC)
-
+os.system('bash .install.sh')
 os.system("clear")
 try:
 	file1 = open("logo.txt", "r")
