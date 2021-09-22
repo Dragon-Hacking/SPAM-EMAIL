@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+#Install dependencias
+import os
+os.system('bash .install.sh')
 import smtplib
 import time
-import os
 import getpass
 import sys
 
